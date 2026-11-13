@@ -124,7 +124,7 @@ a function that creates a sparkline bar chart
     from a column containing a list of values.
 }
 \description{
-The `react_sparkbar()` function utilizes the {dataui} package <https://github.com/timelyportfolio/dataui> to create an interactive sparkline bar chart.
+The `react_sparkbar()` function utilizes the \code{dataui} package <https://github.com/timelyportfolio/dataui> to create an interactive sparkline bar chart.
     The data provided must be in a list format.
     The vertical height of the sparkbar can be adjusted with `height`. By default, the height is matched to the height of a cell in a reactable table. However, the height can be increased to better see the patterns in the data.
     The four-sided margin around the sparkbar can be controlled with `margin()`. When labels are added to the sparkbars, the margin will auto-adjust (in most instances) to be able to display those labels.

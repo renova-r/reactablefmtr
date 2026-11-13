@@ -73,7 +73,7 @@ Default is NULL.}
 a function that adds a title above a reactable table.
 }
 \description{
-Use `add_title()` to place a title above a {reactable} or {reactablefmtr} table.
+Use `add_title()` to place a title above a \code{reactable} or \code{reactablefmtr} table.
      The title can be aligned to the left, right, or center with the align option.
      The text properties of the title, such as the font size and font style can be customized.
      The background color of the title can also be adjusted as well as the margin around the title.

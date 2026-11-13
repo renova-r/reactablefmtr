@@ -144,7 +144,7 @@ a function that creates a sparkline chart
     from a column containing a list of values.
 }
 \description{
-The `react_sparkline()` function utilizes the {dataui} package <https://github.com/timelyportfolio/dataui> to create an interactive sparkline line chart.
+The `react_sparkline()` function utilizes the \code{dataui} package <https://github.com/timelyportfolio/dataui> to create an interactive sparkline line chart.
     The data provided must be in a list format.
     The vertical height of the sparkline can be adjusted with `height`. By default, the height is matched to the height of a cell in a reactable table. However, when min/max/all labels are applied, the height is auto-increased to better show the labels. Further adjustment of the height may be needed to better see the patterns in the data.
     The four-sided margin around the sparkline can be controlled with `margin()`. When labels are added to the sparklines, the margin will auto-adjust (in most instances) to be able to display those labels.

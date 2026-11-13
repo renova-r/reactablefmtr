@@ -3,7 +3,7 @@
 \name{group_merge_sort}
 \alias{group_merge_sort}
 \title{Hide rows containing duplicate values on sort. Must be placed within reactable::colDef(style).
-Credit to Greg Lin, creator of {reactable} for writing the JS function.}
+Credit to Greg Lin, creator of reactable for writing the JS function.}
 \usage{
 group_merge_sort(col_name = NULL)
 }
@@ -15,7 +15,7 @@ a function that hides duplicate values on sort in a reactable table.
 }
 \description{
 Hide rows containing duplicate values on sort. Must be placed within reactable::colDef(style).
-Credit to Greg Lin, creator of {reactable} for writing the JS function.
+Credit to Greg Lin, creator of \code{reactable} for writing the JS function.
 }
 \examples{
 data <- MASS::Cars93[1:20, c("Manufacturer", "Model", "Type", "MPG.city")]

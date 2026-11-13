@@ -74,7 +74,7 @@ Default is NULL.}
 a function that adds a source below a reactable table.
 }
 \description{
-Use `add_source()` to place a source below a {reactable} or {reactablefmtr} table.
+Use `add_source()` to place a source below a \code{reactable} or \code{reactablefmtr} table.
      The same options that are present in `add_title()` and `add_subtitle()` are also available in `add_source()`.
      The source can be aligned to the left, right, or center with the align option.
      The text properties of the source, such as the font size and font style can be customized.

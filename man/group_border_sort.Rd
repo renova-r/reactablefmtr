@@ -3,7 +3,7 @@
 \name{group_border_sort}
 \alias{group_border_sort}
 \title{Add a styled border beneath rows of specified groups on sort. Must be placed within reactable::rowStyle().
-Credit to Greg Lin, creator of {reactable} for writing the JS function.}
+Credit to Greg Lin, creator of reactable for writing the JS function.}
 \usage{
 group_border_sort(
   columns = NULL,
@@ -38,7 +38,7 @@ a function that applies a bottom border to each group in a column of a reactable
 }
 \description{
 Add a styled border beneath rows of specified groups on sort. Must be placed within reactable::rowStyle().
-Credit to Greg Lin, creator of {reactable} for writing the JS function.
+Credit to Greg Lin, creator of \code{reactable} for writing the JS function.
 }
 \examples{
 data <- MASS::Cars93[1:20, c("Manufacturer", "Model", "Type", "MPG.city")]

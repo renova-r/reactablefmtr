@@ -23,7 +23,7 @@ cell_style(
 )
 }
 \arguments{
-\item{data}{A dataset to be displayed within a {reactable} table.}
+\item{data}{A dataset to be displayed within a \code{reactable} table.}
 
 \item{rows}{Numeric value representing the row number to apply the custom style.
 Can provide a vector of rows if applying to more than one row.
@@ -85,12 +85,12 @@ Default is "1s ease".}
 a function that adds a custom style to a row or rows in a reactable table.
 }
 \description{
-Use `cell_style()` to customize the appearance of certain cells in a {reactable} or {reactablefmtr} table.
+Use `cell_style()` to customize the appearance of certain cells in a \code{reactable} or \code{reactablefmtr} table.
      Assign custom styles by either row number(s) or by values within a particular column.
      The font color, font size, font style, and font weight can all be modified.
      Borders can also be placed around cells and customized by style, width, and color.
      By default, animation is applied to the cells that are styled, but can be turned off by setting to 'none'.
-     Some options within `cell_style()` will work with other {reactablefmtr} formatters (such as data_bars() and color_tiles()),
+     Some options within `cell_style()` will work with other \code{reactablefmtr} formatters (such as data_bars() and color_tiles()),
      but it is not fully supported and should be used separately, not together.
      `cell_style()` needs to be placed within the style argument of reactable::colDef.
 }

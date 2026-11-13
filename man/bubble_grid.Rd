@@ -132,7 +132,7 @@ The `bubble_grid()` function creates a customizable bubble grid chart within a r
     B) leaving `brighten_text` as TRUE and setting `brighten_text_color` to a darker color other than the default white color.
     If the user wants to assign colors row-wise instead of column-wise, set `span` equal to TRUE to apply across all columns.
     Or can provide the names of the columns by either column name or column position number to apply to only a subset of the columns.
-    The format of the numbers within the bubbles can be changed by defining the format from a package such as the {scales} package within `number_fmt`.
+    The format of the numbers within the bubbles can be changed by defining the format from a package such as the \code{scales} package within `number_fmt`.
     `bubble_grid()` needs to placed within the cell argument in reactable::colDef.
 }
 \examples{

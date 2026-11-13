@@ -74,7 +74,7 @@ Default is NULL.}
 a function that adds a subtitle above a reactable table.
 }
 \description{
-Use `add_subtitle()` to place a subtitle above a {reactable} or {reactablefmtr} table.
+Use `add_subtitle()` to place a subtitle above a \code{reactable} or \code{reactablefmtr} table.
      The same options that are present in `add_title()` and `add_source()` are also available in `add_subtitle()`.
      The subtitle can be aligned to the left, right, or center with the align option.
      The text properties of the subtitle, such as the font size and font style can be customized.
